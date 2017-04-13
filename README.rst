@@ -46,6 +46,8 @@ Caveats
   settings.
 * File paths are not portable between operating systems, so you may need logic to support both Unix and Windows at
   once.
+* File paths are not portable between ``.py`` and ``.pyc`` files. In most cases this means a ``.pyc`` file will not be
+  used for settings since it can't be guaranteed to be there, slightly slowing down import time.
 * ``DJANGO_SETTINGS_MODULE`` and ``DJANGO_SETTINGS_FILE`` can't both be used by the same project, since the module is
   required for the file-based logic. You might be able to allow them both with extra logic, pull requests accepted.
 * ``¯\_(ツ)_/¯`` - this is kind of unknown territory, this library has not been tested in any real project, just with
