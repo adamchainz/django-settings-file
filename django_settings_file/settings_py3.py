@@ -1,8 +1,8 @@
+# -*- coding:utf-8 -*-
+from __future__ import absolute_import, division, print_function, unicode_literals
+
 import os
 from importlib.util import module_from_spec, spec_from_file_location
-
-if 'DJANGO_SETTINGS_FILE' not in os.environ:
-    raise ImportError('Need DJANGO_SETTINGS_FILE to be defined')
 
 # Recipe for importing from path as documented in importlib
 spec = spec_from_file_location(
