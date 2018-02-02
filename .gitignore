@@ -40,6 +40,5 @@ htmlcov
 output/*.html
 output/*/index.html
 
-# Hypothesis
 .cache
-.hypothesis
+.pytest_cache
