@@ -5,9 +5,13 @@ import os
 import subprocess
 import sys
 from textwrap import dedent
-from unittest import mock
 
 import pytest
+
+try:
+    from unittest import mock
+except ImportError:
+    import mock
 
 module_dir = os.path.dirname(os.path.abspath(__file__))
 
