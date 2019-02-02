@@ -6,6 +6,11 @@ Let Django use settings from an arbitrary Python file instead of an importable m
 As per `James Pic's idea posted on the django-developers mailing list
 <https://groups.google.com/forum/#!msg/django-developers/mzkwaGQtpOk/LZkxLUMwBQAJ>`_.
 
+Requirements
+------------
+
+Python 3.4+ and Django 1.8-2.1 supported.
+
 Usage
 -----
 
