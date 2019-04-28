@@ -9,7 +9,7 @@ As per `James Pic's idea posted on the django-developers mailing list
 Requirements
 ------------
 
-Python 3.4+ and Django 1.11-2.1 are supported.
+Python 3.4+ and Django 1.11-2.2 are supported.
 
 Usage
 -----
