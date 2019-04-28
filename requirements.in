@@ -6,3 +6,4 @@ multilint
 pygments
 pytest
 pytz
+sqlparse
