@@ -33,7 +33,7 @@ setup(
     install_requires=[
         'Django>=1.11',
     ],
-    python_requires='>=3.4',
+    python_requires='>=3.5',
     license='ISC',
     zip_safe=False,
     keywords='Django',
@@ -49,8 +49,7 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3 :: Only',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
     ],
 )
