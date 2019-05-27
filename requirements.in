@@ -8,3 +8,4 @@ pygments
 pytest
 pytz
 sqlparse
+twine
