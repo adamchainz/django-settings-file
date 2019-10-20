@@ -1,7 +1,5 @@
 import os
 
-__version__ = "2.0.1"
-
 
 class DjangoSettingsFileError(Exception):
     pass
