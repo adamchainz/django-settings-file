@@ -18,7 +18,7 @@ As per `James Pic's idea posted on the django-developers mailing list
 Requirements
 ------------
 
-Python 3.5-3.8 and Django 1.11-3.0 are supported.
+Python 3.5 to 3.8 and Django 1.11 to 3.0 are supported.
 
 Usage
 -----
