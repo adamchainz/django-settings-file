@@ -1,10 +1,8 @@
 History
 =======
 
-Pending release
----------------
-
-.. Insert new release notes below this line
+2.1.0 (2019-12-19)
+------------------
 
 * Update Python support to 3.5-3.8, as 3.4 has reached its end of life.
 * Converted setuptools metadata to configuration file. This meant removing the
@@ -13,6 +11,7 @@ Pending release
   ``importlib.metadata.version("django-settings-file")``
   (`docs <https://docs.python.org/3.8/library/importlib.metadata.html#distribution-versions>`__ /
   `backport <https://pypi.org/project/importlib-metadata/>`__).
+* Tested with Django 3.0. No changes were required for compatibility.
 
 2.0.1 (2019-04-28)
 ------------------
