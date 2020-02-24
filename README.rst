@@ -23,7 +23,7 @@ Python 3.5 to 3.8 and Django 1.11 to 3.0 are supported.
 Usage
 -----
 
-1. Install with ``pip install django-settings-file``.
+1. Install with ``python -m pip install django-settings-file``.
 
 2. Edit your ``manage.py`` and ``wsgi.py`` to swap out Django's default logic for setting ``DJANGO_SETTINGS_MODULE`` to
    instead do:
