@@ -1,8 +1,8 @@
 django-settings-file
 ====================
 
-.. image:: https://img.shields.io/travis/adamchainz/django-settings-file/master.svg
-        :target: https://travis-ci.org/adamchainz/django-settings-file
+.. image:: https://github.com/adamchainz/django-settings-file/workflows/CI/badge.svg?branch=master
+        :target: https://github.com/adamchainz/django-settings-file/actions?workflow=CI
 
 .. image:: https://img.shields.io/pypi/v/django-settings-file.svg
         :target: https://pypi.python.org/pypi/django-settings-file
