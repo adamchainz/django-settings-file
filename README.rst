@@ -2,13 +2,13 @@ django-settings-file
 ====================
 
 .. image:: https://github.com/adamchainz/django-settings-file/workflows/CI/badge.svg?branch=master
-        :target: https://github.com/adamchainz/django-settings-file/actions?workflow=CI
+   :target: https://github.com/adamchainz/django-settings-file/actions?workflow=CI
 
 .. image:: https://img.shields.io/pypi/v/django-settings-file.svg
-        :target: https://pypi.python.org/pypi/django-settings-file
+   :target: https://pypi.python.org/pypi/django-settings-file
 
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
-    :target: https://github.com/python/black
+   :target: https://github.com/python/black
 
 Let Django use settings from an arbitrary Python file instead of an importable module.
 
