@@ -1,6 +1,8 @@
+=======
 History
 =======
 
+* Support Python 3.9.
 * Drop Django 2.0 and 2.1 support.
 
 2.2.0 (2020-06-15)
