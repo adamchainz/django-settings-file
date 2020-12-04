@@ -2,6 +2,8 @@
 History
 =======
 
+* Drop Python 3.5 support.
+
 * Support Python 3.9.
 * Drop Django 2.0 and 2.1 support.
 
