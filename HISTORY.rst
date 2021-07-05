@@ -2,6 +2,9 @@
 History
 =======
 
+2.4.1 (2021-07-05)
+------------------
+
 * Stop distributing tests to reduce package size. Tests are not intended to be
   run outside of the tox setup in the repository. Repackagers can use GitHub's
   tarballs per tag.
