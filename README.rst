@@ -45,6 +45,7 @@ Usage
    .. code-block:: python
 
        import django_settings_file
+
        django_settings_file.setup()
 
 3. Add ``os.environ.setdefault('DJANGO_SETTINGS_FILE', '/path/to/default.py')`` before the ``setup()`` call, unless you
