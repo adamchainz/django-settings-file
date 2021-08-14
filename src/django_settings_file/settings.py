@@ -5,8 +5,9 @@ from importlib.util import module_from_spec, spec_from_file_location
 spec = spec_from_file_location(
     "django_settings_file.settings_real", os.environ["DJANGO_SETTINGS_FILE"]
 )
+assert spec is not None
 module = module_from_spec(spec)
-spec.loader.exec_module(module)
+spec.loader.exec_module(module)  # type: ignore [union-attr]
 
 # Take all the attributes
 globals().update(module.__dict__)

@@ -5,7 +5,7 @@ class DjangoSettingsFileError(Exception):
     pass
 
 
-def setup():
+def setup() -> None:
     if "DJANGO_SETTINGS_MODULE" in os.environ:
         raise DjangoSettingsFileError(
             "DJANGO_SETTINGS_MODULE should not be defined, only "
