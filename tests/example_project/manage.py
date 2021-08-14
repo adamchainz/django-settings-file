@@ -5,7 +5,7 @@ import sys
 import django_settings_file
 
 
-def main():
+def main() -> None:
     """Run administrative tasks."""
     django_settings_file.setup()
     try:
