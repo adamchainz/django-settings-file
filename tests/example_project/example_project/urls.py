@@ -1,3 +1,5 @@
-from typing import Any, List
+from __future__ import annotations
 
-urlpatterns: List[Any] = []
+from typing import Any
+
+urlpatterns: list[Any] = []
