@@ -23,9 +23,9 @@ As per `James Pic's idea posted on the django-developers mailing list
 Requirements
 ------------
 
-Python 3.7 to 3.10 supported.
+Python 3.7 to 3.11 supported.
 
-Django 3.2 to 4.0 supported.
+Django 3.2 to 4.1 supported.
 
 ----
 
