@@ -3,6 +3,7 @@ from __future__ import annotations
 import os
 import subprocess
 import sys
+from functools import partial
 from textwrap import dedent
 from unittest import mock
 
@@ -22,11 +23,10 @@ def in_project_dir():
         os.chdir(orig_dir)
 
 
-def patch_environment(**kwargs):
-    return mock.patch.dict(os.environ, kwargs)
+patch_environment = partial(mock.patch.dict, os.environ)
 
 
-def call_example_command():
+def call_example_command() -> tuple[int, str, str]:
     proc = subprocess.Popen(
         [sys.executable, "manage.py", "example_command"],
         stdout=subprocess.PIPE,
