@@ -15,6 +15,14 @@ django-settings-file
    :target: https://github.com/pre-commit/pre-commit
    :alt: pre-commit
 
+Unmaintained (2022-12-07)
+-------------------------
+
+I stopped maintaining this package as it has never been popular.
+If you want to use the functionality I recommend copying the small amount of code into your project.
+
+----
+
 Let Django use settings from an arbitrary Python file instead of an importable module.
 
 As per `James Pic's idea posted on the django-developers mailing list
